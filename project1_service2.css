@@ -1,0 +1,60 @@
+#Projectpage{
+  background-color: black;
+  border:2px solid black;
+}
+header h1{
+   color:red;
+   font-size: xx-large;
+   text-align: center;
+}
+.container5-project{
+ display:grid;
+ gap:10px;
+ grid-template-columns:repeat(3,1fr); 
+ height:1000px;
+ grid-template-rows: 500px 500px;
+}
+.container5-project .project-box{
+  background-color: aliceblue;
+  position: relative;
+  overflow: hidden;
+}
+ figure img{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  transition:3s ease-in-out;
+  z-index: 2;
+}
+.container5-project .project-box figcaption{
+  position:absolute;
+  top:20vh;
+  left:5vw;
+  /*Z index hides the text below the image.more z-index value appears 1st*/
+  z-index: 1;
+  font-family: cursive;
+}
+.container5-project .project-box:hover figure img{
+  transform: translateY(-100%);
+}
+.project-box figcaption h1{
+  color:red;
+}
+.project-box figcaption button{
+  background-color:red;
+  color:white;
+  border-radius: 5px;
+
+}
+@media (max-width:1230px){
+  .container5-project{
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: 3.5fr;
+    gap:10px;
+    width:auto;
+   }
+}
+
+

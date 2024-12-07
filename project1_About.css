@@ -1,0 +1,52 @@
+body .container2 {
+    background-image: url(https://img.freepik.com/premium-photo/man-sits-table-dark-office-working-laptop_713888-5468.jpg?w=1380);
+    background:cover;
+    height:100vh;
+    width:100vw;
+    border:1px solid black;
+}
+.container2  h3{
+    color:red;
+    display:flex;
+    justify-content: center;
+    font-size: x-large;
+}
+    
+.container2 div h1{
+    color:red;
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.container2 .beside img{
+    height:110px;
+    width:350px;
+    border-radius: 50%;
+    margin-left:50px;
+}
+.container2 .beside{
+    height:100px;
+    width:1300px;
+    color:white;
+    font-weight: bolder;
+    display:flex;
+}
+.readbutton .read{
+    border:1px solid black;
+    background-color:cornflowerblue;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:550px;
+    margin-top:10px;
+}
+.readbutton .read:hover{
+    width:150px;
+    height:40px;
+    background-color: red;
+    font-size: medium;
+    color:white;
+}

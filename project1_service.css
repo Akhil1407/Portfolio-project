@@ -1,0 +1,101 @@
+body .container4{
+    height:100vh;
+    width:100vw;
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxyo9RtOusEfJFffuihrQv-7vNK9xhr_LXMSvLHsnNLFXAa_CfV5H1J8YeIKjH4yk14EU&usqp=CAU);
+    background:cover;
+    border:2px solid black;
+    
+}
+.container4 h1{
+    text-align: center;
+    font-size: xx-large;
+    color:red;
+}
+.container4 .certificate-section{
+    display:grid;
+    grid-template-columns: repeat(3,2.5fr);
+    grid-template-rows:1fr 3fr;
+    border:1px solid lightgrey;
+    margin:50px;
+    height:600px;
+
+}
+.container4 .certificate-section .certificate-card1{
+   margin-left:10px;
+    text-align: center;
+}
+.container4 .certificate-section .certificate-card2{
+   
+    text-align: center;
+}
+
+.container4 .certificate-section .certificate-card3{
+   
+    text-align: center;
+}
+
+ /*.certificate-card1 .card1{
+   grid-row:1/3;
+    grid-column:1/2;
+    text-align: center;
+    
+}*/
+.certificate-card1 .card1{
+    color:rgb(249, 19, 19);
+    font-size: larger;
+}
+.certificate-card2 .card2{
+    color:rgb(249, 19, 19);
+    font-size: larger;
+}
+.certificate-card3 .card3{
+    color:rgb(249, 19, 19);
+    font-size: larger;
+}
+
+ .certificate-card1:hover{
+    box-shadow:2px 1px 5px 3px chartreuse;
+    transform:translateY(250px);
+    transition-timing-function: linear;
+    transition-duration: 2s;
+}
+.certificate-section .card1 button:hover{
+    width:100px;
+    height:60px;
+    background-color: gold;
+    color:deeppink;
+    font-weight: 900;
+    box-shadow: 0.5px 0.5px 1px 2px rgb(217, 12, 131);
+    
+}
+.certificate-card2:hover{
+    box-shadow:2px 1px 5px 3px chartreuse;
+    transform:translateY(250px);
+    transition-timing-function: linear;
+    transition-duration: 2s;  
+}
+
+.certificate-section .card2 button:hover{
+    width:100px;
+    height:60px;
+    background-color: gold;
+    color:deeppink;
+    font-weight: 900;
+    box-shadow: 0.5px 0.5px 1px 2px rgb(217, 12, 131);
+}
+.certificate-card3:hover{
+    box-shadow:2px 1px 5px 3px chartreuse;
+    transform:translateY(250px);
+    transition-timing-function: linear;
+    transition-duration: 2s;
+}
+.certificate-section .card3 button:hover{
+    width:100px;
+    height:60px;
+    background-color: gold;
+    color:deeppink;
+    font-weight: 900;
+    box-shadow: 0.5px 0.5px 1px 2px rgb(217, 12, 131);
+   
+}

@@ -1,0 +1,196 @@
+.container{
+    height:100vh;
+    width:100vw;
+    background-color:lightslategrey;
+    color:white;
+    border:2px solid black;
+    background-image: url(https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg);
+    background:cover;
+   
+}
+.navbar nav .list li:hover{
+    text-decoration:underline;
+    color:rgb(181, 14, 14);
+    font-weight: bold;
+}
+.navbar nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: black;
+   width:100vw;
+}
+.logo{
+    margin-top: 5px;
+    margin-left:7px;
+    margin-bottom: 5px;
+}
+.container .navbar img:hover{
+    border:1px solid red;
+    box-shadow:2px 2px 7px 4px red;
+}
+ .list{
+display:flex;
+justify-content: space-around;
+padding:5px;
+gap:25px;
+color:white;
+}
+.navbar nav .label{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+}
+body main .navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme-toggle {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Hide the checkbox (the real toggle) */
+  #toggle {
+    display: none;
+  }
+  
+  /* Sun and moon icons for the toggle */
+  .theme-toggle label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    background-color: #444;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .theme-toggle label .sun, .theme-toggle label .moon {
+    font-size: 1.2em;
+    position: absolute;
+    transition: all 0.3s ease;
+  }
+  .theme-toggle label .sun {
+    left: 10px;
+    color:yellow;
+  }
+  
+  .theme-toggle label .moon {
+    right: 10px;
+    color: #444;
+  }
+  #toggle:checked + label .sun {
+    color: #444;
+  }
+  
+  #toggle:checked + label .moon {
+    color: white;
+  }
+  #toggle:checked ~ body {
+    background-color:black;
+    color:white;
+  }
+  #toggle:checked ~ nav {
+    background-color:black;
+  }
+  
+  #toggle:checked ~ nav ul li a {
+    color:white;
+  }
+   .homepage{
+    width:400px;
+    background-color: rgb(58, 126, 162);
+    padding:20px;
+    border-radius:20px;
+    box-shadow:2px 2px 5px 3px red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:transparent;
+  }
+  .homepage .profile{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-bottom:15px;
+  }
+  .homepage .profile:hover{
+    width:200px;
+    height:200px;
+    box-shadow: 1px 1px 2px 3px red;
+    transform:rotate3d(1,1,1,360deg);
+  }
+  .homepage h2{
+    font-size:20px;
+    color:white;
+  }
+  .homepage  p{
+    font-size:17px;
+    color:white;
+  }
+  .homepage button{
+    background-color: rgb(13, 216, 122);
+    color:white;
+    padding:10px 20px;
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  .homepage button:hover{
+    background-color:red;
+  }
+  .Home{
+    display:flex;
+    margin:10px;
+    
+  }
+  .besidehome .h3,.h2{
+    display:flex;
+    justify-content: center;
+  }
+  .besidehome .p{
+    display:flex;
+    justify-content: center;
+    transform:translateX(100px);
+    transition-duration: 3s;
+  }
+  .besidehome p{
+    animation:movingpara;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes movingpara{
+    50%{
+         transform :translateX(200px);
+         color:red;
+         font-size: bold;
+        }
+        
+}
+.besidehome .icons{
+  display:flex;
+  justify-content: inline;
+  align-items: center;
+  margin:100px;
+  gap:30px;
+}
+.besidehome .icons #facebook:hover{
+  color:red;
+  transform:scale(1.5);
+}
+.besidehome .icons #twitter:hover{
+  color:red;
+  transform:scale(1.5);
+}
+.besidehome .icons #instagram:hover{
+  color:red;
+  transform:scale(1.5);
+}
+.besidehome .icons #whatsapp:hover{
+  color:red;
+  transform:scale(1.5);
+}
+
